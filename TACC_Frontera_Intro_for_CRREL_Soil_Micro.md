@@ -145,7 +145,7 @@ Some clusters allow you to map storage as drives on your laptop. I don't think t
 
 Frontera can also be used with [Globus](https://portal.tacc.utexas.edu/tutorials/globus), which might help if you are transferring datasets between Frontera and a sequencing center or another HPC cluster.
 
-Frontera interfaces with Google Cloud, Amazon Web Services and Microsft Azure. The [TACC user guide](https://frontera-portal.tacc.utexas.edu/user-guide/cloud/) provides detailed instructions on how these connections can be set up.
+Frontera interfaces with Google Cloud, Amazon Web Services and Microsoft Azure. The [TACC user guide](https://frontera-portal.tacc.utexas.edu/user-guide/cloud/) provides detailed instructions on how these connections can be set up.
 
 ## Downloading files from the internet
 
@@ -176,3 +176,5 @@ do
 done
 wait
 ```
+
+In the case of NCBI data, there are specialized tools like SRAtools made available by the NCBI to facilitate downloads. These specialized tools are especially useful for downloading large datasets or large numbers of files from the NCBI to Frontera.
