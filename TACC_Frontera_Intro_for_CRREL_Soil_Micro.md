@@ -168,7 +168,8 @@ It may be better to carry out transfers of many files, or large files, using the
 # (this is a custom command on Frontera so it won't work on other clusters)
 idev
 
-# as an example, downloads in parallel the first 10 files from the permafrost thaw metagenomic dataset:
+# as an example, downloads in parallel the first 10 files from the permafrost thaw metagenomic dataset
+# (see https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=542925 for all files)
 for sra in SRR15048733 SRR15048734 SRR15048735 SRR15048736 SRR15048737 SRR15048738 SRR15048739 SRR15048740 SRR15048741 SRR15048742
 do
     wget --quiet https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-run-25/${sra}/${sra}.1 &
