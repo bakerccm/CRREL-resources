@@ -141,7 +141,7 @@ Other command-line options you might see people using include `ftp`, `sftp` and 
 
 If you prefer a graphical interface for your file transfers, programs you might consider include [FileZilla](https://filezilla-project.org), [WinSCP](https://winscp.net/eng/download.php) (for Windows) and [Cyberduck](https://cyberduck.io).
 
-Some clusters allow you to map storage as drives on your laptop. I don't think this option is available on Frontera.
+Some clusters allow you to map your Frontera storage as a drive on your laptop. One possibility for doing this on Frontera is to install the `sshfs` utility locally. I have not tried this.
 
 Frontera can also be used with [Globus](https://portal.tacc.utexas.edu/tutorials/globus), which might help if you are transferring datasets between Frontera and a sequencing center or another HPC cluster.
 
